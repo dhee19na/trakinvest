@@ -1,10 +1,10 @@
-# Laravel-Vue-SPA
+# Trakinvet SPA
 
-This repository is the result of a tutorial about creating a SPA (Single Page Application) with role-based authentication with Laravel and Vue.
+This tutorial about creating a SPA with Laravel and Vue.
 
-This tutorial is available [here](https://medium.com/@ripoche.b/create-a-spa-with-role-based-authentication-with-laravel-and-vue-js-ac4b260b882f) (version française [ici](https://medium.com/@ripoche.b/cr%C3%A9er-une-spa-avec-authentification-par-r%C3%B4les-avec-laravel-et-vue-js-e69782ac6896)).
+This tutorial is available 
 
-## Prerequiries
+## Required
 
 - PHP 7
 - Composer
@@ -16,20 +16,21 @@ This tutorial is available [here](https://medium.com/@ripoche.b/create-a-spa-wit
 - Clone the repository
 - Installer back dependencies with `composer install`
 - Install front dependencies with `npm i`
-- Copy file `.env.example` in `.env` and add following informations:
+- Change .env configuration below like
     - Database credentials (`DB_HOST`, `DB_PORT`, ...)
     - Application url (`APP_URL`). Either virtual host address if you configure one, either address form the command `php artisan serve`
 - Generate application key with `php artisan key:generate`
 - Generate JWT key with `php artisan jwt:secret`
-- Launch migrations with `php artisan migrate --seed`.
-- Build front with `npm run dev`
+- Import DB or Migrate `php artisan migrate --seed`
+- Build front with `npm run dev` or `npm run watch` 
 
-If you did'nt set a virtual host, launch application with the `php artisan serve` command. By default, application will be served at `http://127.0.0.1:8000`
+If you did'nt set a virtual host, launch application with the `php artisan serve` command. By default, application will be served at `http://localhost:8000` or Change in env and App.js
 
 ## Configuration
 
 You can change the length of time (in minutes) that the token will be valid for by changin the `JWT_TTL` value in the `.env` file.
 
-## Usage
+STEP 1: Register 
+STEP 2: Login 
+STEP 3: Dashboard (Listing & Add & Edit & Search)
 
-Log as admin with `admin@test.com:admin` or as user with `user@test.com:secret`
