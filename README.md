@@ -34,6 +34,10 @@ STEP 1: Register
 <img src="https://github.com/dhee19na/trakinvest/blob/master/Register.png">
 
 STEP 2: Login 
+<img src="https://github.com/dhee19na/trakinvest/blob/master/login.png">
+
 STEP 3: Dashboard (Listing & Add & Edit & Search)
+<img src="https://github.com/dhee19na/trakinvest/blob/master/Edit.png">
+<img src="https://github.com/dhee19na/trakinvest/blob/master/Add.png">
 
 
