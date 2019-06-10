@@ -31,6 +31,9 @@ If you did'nt set a virtual host, launch application with the `php artisan serve
 You can change the length of time (in minutes) that the token will be valid for by changin the `JWT_TTL` value in the `.env` file.
 
 STEP 1: Register 
+<img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201906/Google_Pixel_4_Slash_Leaks.jpeg?vOVKS5y37s5nM.thpPQ9EsRGUN.AyYC9">
+
 STEP 2: Login 
 STEP 3: Dashboard (Listing & Add & Edit & Search)
+
 
