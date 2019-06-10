@@ -21,7 +21,7 @@ This tutorial is available
     - Application url (`APP_URL`). Either virtual host address if you configure one, either address form the command `php artisan serve`
 - Generate application key with `php artisan key:generate`
 - Generate JWT key with `php artisan jwt:secret`
-- Import DB or Migrate `php artisan migrate --seed`
+- Import DB (trakinvest.sql) or Migrate `php artisan migrate --seed`
 - Build front with `npm run dev` or `npm run watch` 
 
 If you did'nt set a virtual host, launch application with the `php artisan serve` command. By default, application will be served at `http://localhost:8000` or Change in env and App.js
